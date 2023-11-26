@@ -1,0 +1,17 @@
+{
+  "types": {
+    "miscellaneous": {
+      "changelog": false,
+      "description": "Other.",
+      "emoji": {
+        "character": "🧺",
+        "code": ":basket:",
+        "name": "basket"
+      },
+      "semver": null,
+      "title": "Miscellaneous",
+      "type": "miscellaneous"
+    }
+  },
+  "fallback": "miscellaneous"
+}

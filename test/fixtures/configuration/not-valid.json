@@ -1,0 +1,15 @@
+{
+  "types": {
+    "miscellaneous": {
+      "changelog": false,
+      "description": "Other.",
+      "emoji": {
+        "character": "🧺",
+        "code": ":basket:",
+        "name": "basket"
+      },
+      "semver": null,
+      "type": "miscellaneous"
+    }
+  }
+}

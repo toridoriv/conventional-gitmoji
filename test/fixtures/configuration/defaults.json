@@ -1,0 +1,220 @@
+{
+  "types": {
+    "build": {
+      "changelog": true,
+      "description": "Changes that affect the build system or external dependencies (example scopes: gulp, broccoli, npm).",
+      "emoji": {
+        "character": "🛠️",
+        "code": ":hammer_and_wrench:",
+        "name": "hammer_and_wrench"
+      },
+      "semver": "patch",
+      "title": "Builds",
+      "type": "build"
+    },
+    "chore": {
+      "changelog": true,
+      "description": "Other changes that don't modify src or test files.",
+      "emoji": {
+        "character": "🧹",
+        "code": ":broom:",
+        "name": "broom"
+      },
+      "semver": null,
+      "title": "Chores",
+      "type": "chore"
+    },
+    "ci": {
+      "changelog": true,
+      "description": "Changes to our CI configuration files and scripts (example scopes: Travis, Circle, BrowserStack, SauceLabs).",
+      "emoji": {
+        "character": "⚙️",
+        "code": ":gear:",
+        "name": "gear"
+      },
+      "semver": null,
+      "title": "Continuous Integrations",
+      "type": "ci"
+    },
+    "docs": {
+      "changelog": true,
+      "description": "Documentation only changes.",
+      "emoji": {
+        "character": "📚",
+        "code": ":books:",
+        "name": "books"
+      },
+      "semver": null,
+      "title": "Documentation",
+      "type": "docs"
+    },
+    "feat": {
+      "changelog": true,
+      "description": "A new feature.",
+      "emoji": {
+        "character": "✨",
+        "code": ":sparkles:",
+        "name": "sparkles"
+      },
+      "semver": "minor",
+      "title": "Features",
+      "type": "feat"
+    },
+    "fix": {
+      "changelog": true,
+      "description": "A bug fix.",
+      "emoji": {
+        "character": "🐛",
+        "code": ":bug:",
+        "name": "bug"
+      },
+      "semver": "minor",
+      "title": "Bug Fixes",
+      "type": "fix"
+    },
+    "perf": {
+      "changelog": true,
+      "description": "A code change that improves performance.",
+      "emoji": {
+        "character": "🚀",
+        "code": ":rocket:",
+        "name": "rocket"
+      },
+      "semver": "patch",
+      "title": "Performance Improvements",
+      "type": "perf"
+    },
+    "refactor": {
+      "changelog": true,
+      "description": "A code change that neither fixes a bug nor adds a feature.",
+      "emoji": {
+        "character": "♻️",
+        "code": ":recycle:",
+        "name": "recycle"
+      },
+      "semver": "patch",
+      "title": "Code Refactoring",
+      "type": "refactor"
+    },
+    "style": {
+      "changelog": false,
+      "description": "Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc).",
+      "emoji": {
+        "character": "💎",
+        "code": ":gem:",
+        "name": "gem"
+      },
+      "semver": "patch",
+      "title": "Styles",
+      "type": "style"
+    },
+    "test": {
+      "changelog": true,
+      "description": "Adding missing tests or correcting existing tests.",
+      "emoji": {
+        "character": "🧪",
+        "code": ":test_tube:",
+        "name": "test_tube"
+      },
+      "semver": null,
+      "title": "Tests",
+      "type": "test"
+    }
+  },
+  "aliases": {
+    "breaking": {
+      "changelog": true,
+      "description": "Introduce breaking changes.",
+      "emoji": {
+        "character": "🚨",
+        "code": ":rotating_light:",
+        "name": "rotating_light"
+      },
+      "name": "breaking",
+      "semver": "major",
+      "type": "feat"
+    },
+    "dependencies": {
+      "changelog": true,
+      "description": "Upgrade, downgrade, install or uninstall dependencies.",
+      "emoji": {
+        "character": "📦",
+        "code": ":package:",
+        "name": "package"
+      },
+      "name": "dependencies",
+      "semver": "patch",
+      "type": "build"
+    },
+    "devDependencies": {
+      "changelog": true,
+      "description": "Upgrade, downgrade, install or uninstall development dependencies.",
+      "emoji": {
+        "character": "📦",
+        "code": ":package:",
+        "name": "package"
+      },
+      "name": "devDependencies",
+      "semver": "patch",
+      "type": "chore"
+    },
+    "initial": {
+      "changelog": false,
+      "description": "Initial commit.",
+      "emoji": {
+        "character": "🎉",
+        "code": ":tada:",
+        "name": "tada"
+      },
+      "name": "initial",
+      "semver": null,
+      "type": "feat"
+    },
+    "release": {
+      "changelog": false,
+      "description": "Release a new version.",
+      "emoji": {
+        "character": "🔖",
+        "code": ":bookmark:",
+        "name": "bookmark"
+      },
+      "name": "release",
+      "semver": null,
+      "type": "build"
+    }
+  },
+  "fallback": "chore",
+  "order": [
+    "feat",
+    "fix",
+    "perf",
+    "build",
+    "chore",
+    "ci",
+    "docs",
+    "refactor",
+    "style",
+    "test"
+  ],
+  "scopes": {
+    "breaking": [],
+    "build": [
+      "deps"
+    ],
+    "chore": [
+      "deps"
+    ],
+    "ci": [],
+    "dependencies": [],
+    "devDependencies": [],
+    "docs": [],
+    "feat": [],
+    "fix": [],
+    "initial": [],
+    "perf": [],
+    "refactor": [],
+    "release": [],
+    "style": [],
+    "test": []
+  }
+}
