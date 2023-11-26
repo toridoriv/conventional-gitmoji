@@ -1,0 +1,26 @@
+{
+  "name": "conventional-gitmoji",
+  "version": "0.1.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/toridoriv/conventional-gitmoji.git"
+  },
+  "displayName": "conventional_gitmoji",
+  "description": "",
+  "homepage": "https://deno.land/x/conventional-gitmoji",
+  "author": {
+    "name": "Tori Rodriguez",
+    "email": "vrodriguezfe@icloud.com",
+    "url": "https://github.com/toridoriv"
+  },
+  "bugs": {
+    "url": "https://github.com/toridoriv/conventional-gitmoji/issues"
+  },
+  "scripts": {
+    "precoverage": "npm run test:cov",
+    "coverage": "deno coverage --unstable --exclude='test\\.(js|mjs|ts)$|/test/|dependencies\\.(js|mjs|ts)' coverage",
+    "test": "ENVIRONMENT=test deno test --allow-all --unstable",
+    "pretest:cov": "rm -rf coverage",
+    "test:cov": "npm test -- --coverage=coverage"
+  }
+}
