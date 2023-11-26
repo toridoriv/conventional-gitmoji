@@ -1,5 +1,5 @@
 import { expect } from "./dev-dependencies.ts";
-import { Template } from "./template.ts";
+import { Template } from "../source/template.ts";
 
 Deno.test("The constructor of the class Template should initialize the template with the provided value", () => {
   const template = new Template("Hello {name}");
