@@ -1,0 +1,28 @@
+{
+  "[handlebars]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[html][javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact][json][jsonc][typescript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "deno.cacheOnSave": true,
+  "deno.enable": true,
+  "deno.unstable": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true,
+    "source.organizeImports": true
+  },
+  "editor.formatOnSave": true,
+  "editor.rulers": [80],
+  "prettier.bracketSameLine": true,
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "prettier.printWidth": 80,
+  "prettier.quoteProps": "consistent",
+  "prettier.semi": true,
+  "prettier.singleQuote": false,
+  "prettier.tabWidth": 2,
+  "prettier.trailingComma": "all"
+}
